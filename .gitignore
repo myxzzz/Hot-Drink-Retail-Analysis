@@ -36,12 +36,6 @@ ENV/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Data
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-
 # Reports
 reports/figures/*
 !reports/figures/.gitkeep

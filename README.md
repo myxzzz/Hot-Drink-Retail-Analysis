@@ -44,14 +44,14 @@
 
 ```text
 Hot-Drink-Retail-Analysis/
-├── data/                  # 📥 数据存放处 (重点：Git 建议忽略大文件)
-│   ├── raw/               # 原始数据 (API 刚拉下来、未被污染的 JSON/CSV)
-│   └── processed/         # 清洗后的数据 (Pandas 处理完、可以直接喂给图表的)
-├── notebooks/             # 📓 实验场 (按步骤编号，如 01_获取数据.ipynb)
-├── src/                   # 🐍 核心逻辑库 (把成熟的清洗/爬虫函数封装进 .py 文件)
-├── reports/               # 📊 产出物 (最终的分析报告 PDF、商业洞察 PPT、导出的图片)
-├── requirements.txt       # 🛠️ 环境依赖清单 (面试官一看到就知道需要装哪些库)
-└── README.md              # 📖 项目说明书 (项目背景、核心发现、图表展示)
+├── data/                  # 📥 数据存放处 
+│   ├── raw/               # 原始数据 
+│   └── processed/         # 清洗后的数据 
+├── notebooks/             # 📓 实验场
+├── src/                   # 🐍 核心逻辑库
+├── reports/               # 📊 产出物
+├── requirements.txt       # 🛠️ 环境依赖清单
+└── README.md              # 📖 项目说明书 
 ```
 
 ---
