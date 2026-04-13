@@ -6,7 +6,7 @@ from psycopg2.extras import execute_values
 # ================= Configuration / 配置 =================
 # 1. 想要导入的文件名（可选，不带或带 .csv 后缀）
 #    如果留空为 None，则导入文件夹下所有 CSV 文件
-TARGET_FILE = "result_pre_sale"  # e.g., "sales" 或 "sales.csv"
+TARGET_FILE = r"04_high_score_report.csv"  # e.g., "sales" 或 "sales.csv"
 
 # 2. 想要导入的数据库模式 (Schema)
 TARGET_SCHEMA = "hot_drink_retail"
